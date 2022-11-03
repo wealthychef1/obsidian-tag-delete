@@ -4,12 +4,12 @@
 # tag_allowed_chars='[A-z_\-]'  #FYI
 # written by Richard Cook 2022-11-03
 
-# Usage:  delete_tag.sh <tag1> <tag2> ... [dir or file] 
+# Usage: obsidian-tag-delete.sh <tag1> <tag2> ... [dir or file] 
 # dirname must be last argument
 # "#-deleteme" is always deleted with this script, it's a featured side-effect
 if [[ "x${1}" = "x" || x"$1" = x'-h' ]]; then
     echo 'ERROR: missing dir or filename argument'
-    echo 'Usage:  delete_tag.sh <tag1> <tag2> ... [dir or file]' 
+    echo 'Usage: obsidian-tag-delete.sh <tag1> <tag2> ... [dir or file]' 
     echo "The last argument is taken as the file or dir to operate on"
     echo "'#_-deleteme' variants are always deleted with this script, it's a featured side-effect"
     exit 1
