@@ -25,7 +25,8 @@ Tags: mytag
 
 Or:  
 ```yaml
-Tags: [ mytag ] 
+# these will all be deleted by the script
+Tags: [mytag, mytag, mytag mytag] 
 ```
 
 But not: 
