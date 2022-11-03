@@ -11,6 +11,10 @@ I have tested it on my own data and am satisfied it "shouldn't" do any bad thing
 ```bash
 obsidian-tag-delete.sh -h
 ```
+### Example
+```bash
+obsidian-tag-delete.sh mytag anothertag myfile.md
+```
 
 ## Assumptions
 Per the [documentation](https://help.obsidian.md/How+to/Working+with+tags), this script assumes tags are in the body of your document in this form:  
