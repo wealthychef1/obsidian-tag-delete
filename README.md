@@ -13,10 +13,23 @@ obsidian-tag-delete.sh -h
 ```
 
 ## Assumptions
-This script assumes tags are in the body of your document in this form:  `#mytag`
-Or they can be in the frontmatter (YAML) in this form:  Tags: mytag
-Or:  Tags: [ mytag ] 
+Per the [documentation](https://help.obsidian.md/How+to/Working+with+tags), this script assumes tags are in the body of your document in this form:  
+```markdown
+#mytag
+```
+
+Or they can be in the frontmatter (YAML) in this form:  ("Tags" may be "tags")
+```yaml
+Tags: mytag
+```
+
+Or:  
+```yaml
+Tags: [ mytag ] 
+```
+
 But not: 
+```yaml
 Tags:
  - mytag
-
+```
