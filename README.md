@@ -11,3 +11,12 @@ I have tested it on my own data and am satisfied it "shouldn't" do any bad thing
 ```bash
 obsidian-tag-delete.sh -h
 ```
+
+## Assumptions
+This script assumes tags are in the body of your document in this form:  `#mytag`
+Or they can be in the frontmatter (YAML) in this form:  Tags: mytag
+Or:  Tags: [ mytag ] 
+But not: 
+Tags:
+ - mytag
+
