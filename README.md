@@ -1,10 +1,13 @@
-# obsidian-tag-delete
-A simple (?) shell script to delete a tag from an Obsidian.md Markdown file
-I'm publishing this here because there is an opportunity to improve it by supporting the YAML use case described in the code.  :-P
-Also, so others can freely use it and learn from it.  
+# obsidian-tag-delete is now a plugin
 
-## Warning:  this script deletes data from your vault: BACK UP FIRST
-I have tested it on my own data and am satisfied it "shouldn't" do any bad things but:
+obsidian-tag-delete has evolved from a simple (?) shell script to delete a tag from an Obsidian.md Markdown file into an Obsidian plugin. 
+It lives now at <https://github.com/wealthychef1/obsidian-tag-delete-plugin>
+
+
+
+## Warning:  this script deletes data from your vault: use at your own risk
+- BACK UP FIRST
+- I have tested it on my own data and am satisfied it "shouldn't" do any bad things but:
 **Always back up your data before running this script**
 
 ## Usage
