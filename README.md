@@ -1,7 +1,7 @@
-# obsidian-tag-delete is now a plugin
+# Do not use this software.  It's broken.  
 
-obsidian-tag-delete has evolved from a simple (?) shell script to delete a tag from an Obsidian.md Markdown file into an Obsidian plugin. 
-It lives now at <https://github.com/wealthychef1/obsidian-tag-delete-plugin>
+- Good news, though!  It is now an Obsidian plugin. 
+- It lives now at <https://github.com/wealthychef1/obsidian-tag-delete-plugin>
 
 
 
