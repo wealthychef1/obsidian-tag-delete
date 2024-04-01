@@ -4,6 +4,12 @@
 # tag_allowed_chars='[A-z_\-]'  #FYI
 # written by Richard Cook 2022-11-03
 
+# OBSOLETE
+# THE CODE HERE IS WRONG, INCOMPLETE, AND UNMAINTAINED. 
+# I'M MOVING TO MY PLUGIN
+
+errexit "Sorry, I no longer want to play with you."
+
 # Usage: obsidian-tag-delete.sh <tag1> <tag2> ... [dir or file] 
 # dirname must be last argument
 # "#-deleteme" is always deleted with this script, it's a featured side-effect
@@ -43,9 +49,9 @@ for tag in "${tags[@]}"; do
     # NOTE:  DOES NOT WORK WITH THIS FORM OF NESTED TAGS IN YAML:
     nothandled='
 Tags: 
- - tag1
- - testtag
- - testtag
+- tag1
+- testtag
+- testtag
 '
 done
 if testbool "$verbose"; then 
